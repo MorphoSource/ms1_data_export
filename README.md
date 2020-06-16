@@ -4,7 +4,7 @@ Scripts for exporting records from MS1 for migration into MS2.
 
 There are two scripts: `user_export.py` and `data_export.py`. These scripts have corresponding record output directories `user_export/` and `data_export/`.
 
-MS1 user records have two variable-length dictionaries of user properties called `vars` and `volatile_vars`. These are exported as JSON files, with one JSON file per user. JSON files are identified by user ID in the filename. All other user records are located in a `ca_users.csv` file. 
+All user records are located in a `ca_users.csv` file. 
 
 Data records include facilities, institutions, media (groups), media files, projects, scanners, specimens, and taxonomies. Each of these record types has its own CSV file.
 

@@ -68,11 +68,54 @@ def blob_to_array(blob):
 conn = db_conn()
 c = conn.cursor()
 
+def fill_profile_fields(df, index, vars_dict):
+	list_fields = ['professional_affiliation', 'visualize_software', 'mesh_filetype', 'volume_filetype']
+	weird_name_fields = ['3D_printer', '3D_printer_software']
+
+	if '_user_preferences' in vars_dict:
+		pref = vars_dict['_user_preferences']
+
+		for field in user_profile_fields:
+			if field in weird_name_fields:
+				field_name = 'user_' + field
+			else:
+				field_name = 'user_profile_' + field
+
+			if field_name in pref:
+				if field in list_fields:
+					# handle list
+					df.at[index, field] = ','.join(pref[field_name].values())
+				else:
+					df.at[index, field] = pref[field_name]
+
+	return df
+
 ### Grab All MS1 Users
 
+user_profile_fields = [
+	'organization',
+	'address1',
+	'address2',
+	'city',
+	'state',
+	'country',
+	'postalcode',
+	'phone',
+	'fax',
+	'terms_conditions',
+	'professional_affiliation',
+	'professional_affiliation_other',
+	'visualize_software',
+	'visualize_software_other',
+	'mesh_filetype',
+	'mesh_filetype_other',
+	'volume_filetype',
+	'volume_filetype_other',
+	'3D_printer',
+	'3D_printer_software'
+]
+
 base_path = 'user_export'
-vars_path = os.path.join(base_path, 'vars')
-volatile_vars_path = os.path.join(base_path, 'volatile_vars')
 
 sql = """
 	SELECT *
@@ -82,22 +125,17 @@ sql = """
 r = db_query(c, sql)
 
 df = get_record_df(index_field='user_id', query_result=r)
-
 intify_cols(df, ['user_id'])
+
+for field in user_profile_fields:
+	df[field] = ''
 
 # Expand encoded dicts
 for index, row in df.iterrows():
 	if row.vars:
 		vars_dict = blob_to_array(row.vars)
 		if type(vars_dict) is dict and vars_dict != {}:
-			with open(os.path.join(vars_path, '{}.json'.format(row.user_id)), 'w') as f:
-				json.dump(vars_dict, f)
-			df.at[index, 'vars'] = 'json'
-	if row.volatile_vars:
-		volatile_vars_dict = blob_to_array(row.volatile_vars)
-		if type(volatile_vars_dict) is dict and volatile_vars_dict != {}:
-			with open(os.path.join(volatile_vars_path, '{}.json'.format(row.user_id)), 'w') as f:
-				json.dump(volatile_vars_dict, f)
-			df.at[index, 'volatile_vars'] = 'json'
+			df = fill_profile_fields(df, index, vars_dict)
+	
 
 df.to_csv(os.path.join(base_path, 'ca_users.csv'), index=False, encoding='utf-8')
