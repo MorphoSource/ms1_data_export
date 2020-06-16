@@ -1,5 +1,5 @@
 import sys, os
-sys.path.append(os.path.abspath(os.path.join('..', '..', 'lib')))
+sys.path.append(os.path.abspath(os.path.join('lib')))
 
 import cPickle as pickle
 import credentials
