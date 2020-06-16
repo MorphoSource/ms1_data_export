@@ -1,0 +1,267 @@
+scanner_id,approval_status,created_on,description,facility_id,last_modified_on,name,user_id
+10,0,1369072283,225kV source (from W filament) with max power of 225W. Spot size is ~3um. Moveable detector.,11,1437068535,Nikon XTH 225 ST,11
+11,0,1373230835,,15,1373230876,Nikon XTH 225 ST,12
+12,0,1373233103,Dual x-ray source system (180kV nanofocus and 240kV microfocus).,12,1437068320,GE Phoenix v / tome / x,12
+13,0,1373233159,,14,1373233192,Scanco Medical uCT 40,12
+14,0,1373233159,,14,1373233192,Scanco Medical vivaCT 75,12
+17,0,1376913227,,17,1376989983,SkyScan in-vivo 1076,33
+18,0,1382516785,"The innovative flexible geometry of the SkyScan 1172 scanner is particularly advantageous over intermediate resolution levels, where scans are several times faster (to obtain the same or better image quality) compared to micro-CT systems with a fixed source-detector design. The new large format cooled x-ray digital camera achieves high spatial resolution without compromising sample size. Fast scan and reconstruction throughput is supported by a computer cluster option, which reconstructs scan datasets in less time than the scan duration in most cases, using several PCs in parallel. Cross section images are generated in a wide range of formats up to 8k x 8k pixels. The full range of SkyScan software for 2D / 3D quantitative analysis and for realistic 3D visualization supplied with all scanners.",18,1382516785,SkyScan 1172,41
+19,0,1386608945,,19,1386608945,DVM5000 Leice digital microscope,12
+20,0,1392143082,medical CT scanner,20,1392143082,64-source medical CT scanner,12
+21,0,1393964449,,21,1393964493,Xradia MicroXCT,13
+22,0,1395320892,"The system was built by Bio-Imaging Research, currently part of Varian",22,1409778023,Varian OMNI-X HD-600 HRxCT,12
+23,0,1396394706,,23,1559183095,GE eXplore Locus in vivo,12
+24,0,1396395249,not a CT scanner,24,1446785931,Breuckmann Structured Light Scanner,12
+25,0,1396395275,not a CT scanner,24,1446785931,NextEngine laser scanner,12
+26,0,1399046274,,25,1399046276,X-Tek HMXST225,109
+27,0,1416433897,not a CT scanner,24,1446785931,Cyberware laser scanner,12
+28,0,1422466631,,26,1422466694,Scanco Medical uCT 35,12
+29,0,1425327847,Structured light surface scanner,27,1425328053,Artec Spider,167
+30,0,1425328184,Micro-focus X-ray Tomography Machine,28,1425328184,Nikon XTH 225 ST,167
+31,0,1425328358,Computerized tomography,29,1425328358,Phillips Brilliance 180Pz,167
+32,0,1426260588,"Mounted on stationary copy stand with 2 Bowens Streamlite lamps, tethered to dedicated computer and controlled using Nikno Camera Control Pro.",30,1426260730,"Nikon D5100, 60mm/105mm Macro Lens Camera",132
+33,0,1431636862,,31,1431637192,Next Engine ,47
+34,0,1434295690,Medical CT scanner,32,1434295690,Siemens SOMATOM Defintion AS,300
+35,0,1434305143,laser surface scanner,33,1434305143,NextEngine 3D Laser Scanner,212
+36,0,1437068320,Field Emission SEM with EDS and CL capability.,12,1437068320,Hitachi S-4700 ,14
+37,0,1437068320,Environmental (variable pressure) SEM with EDS and EBSD capability. Uses LaB6 filament.,12,1437068320,Zeiss EVO 60 VPSEM,14
+38,0,1437068530,The SEM is a high magnification imaging tool. Resolution is on the order of 2nm.,11,1437068535,FEI XL30 SEM-FEG,14
+39,0,1437068530,The ESEM + EDS is an instrument that can be used to image and complete elemental analysis on dry or hydrated samples.  A tensile stage is available for use on the ESEM.,11,1437068535,FEI XL30 ESEM with Bruker XFlash 4010 EDS Det,14
+40,0,1438009812,,34,1438012568,Nanotom m,349
+41,0,1440192633,Surface laser scanner,35,1440200552,NextEngine,339
+42,0,1440200552,Digital photograph (by John Hawks),35,1440200552,Canon 6D,339
+43,0,1440200552,Digital photograph (by Peter Schmid),35,1440200552,Nikon ,339
+44,0,1443558102,,36,1443558109,Next Engine,47
+45,0,1444230079,The Nikon Metrology HMX ST 225 is a versatile micro-CT scanner that can image specimens from 0.5-20 centimetres in diameter with a maximum resolution of five micrometres. It can produce a maximum accelerating voltage of 225 kilovolts. - See more at: http://www.nhm.ac.uk/our-science/departments-and-staff/core-research-labs/imaging-and-analysis-centre/nikon-metrology-hmx.html#sthash.29AJjWuo.dpuf,37,1444230079,Nikon Metrology HMX ST 225,370
+46,0,1446785931,not a CT scanner,24,1446785931,Minolta Vivid 910 laser surface scanner,12
+47,0,1447447944,"microXCT utilizes cone-beam acquisition: data for up to 2000 slices covering an entire volume can be acquired in a single rotation. Because the height of the scan field is equivalent to its width, high-aspect-ratio specimens must generally be scanned in contiguous parts and the parts then matched together. The microXCT scanner features a Hamamatsu X-ray source capable of energies from 40 to 150 kV. The detectors are mounted on microscope objectives with magnifications ranging from 0.4X to 40X; the former yields a field of view of ~55 mm, whereas the latter yields ~0.5 mm. Thus the spatial resolution for the microXCT ranges from ~55 µm to less than 1 µm. The microXCT scanner also offers the advantage of enhanced phase contrast to better image materials with low mean atomic numbers such as soft tissues and polymers.",39,1474375512,Zeiss (Xradia) microXCT 400,12
+48,0,1449224674,High throughput  CT scanner for large objects,40,1449224678,The Rapiscan RTT110 CT ,51
+49,0,1449224674,Walk in custom specification MicroCT Scanner,40,1449224678,Nikon 225/320 kV  Custom Bay,51
+50,0,1449224674,Nikon XTH 225 MicroCT scanner-standard size cabinet,40,1449224678,Nikon XTH 225,51
+51,0,1449224737,LMI technologies portable structured light scanner,41,1449224744,LMI HDi R3 advance,51
+52,0,1452246625,,42,1452246650,RX in-vivo Skyscan 1076 microtomograph,1372
+53,0,1454620006,"SCANCO Medical, Brüttisellen, Switzerland",43,1454620006,SCANCO microCT 50 ,167
+54,0,1455026496,,44,1455026496,Siemens Somatom,1435
+55,0,1457709987,Features: 400X400 mm (16X16”) detector plate. Multiple scans of a sample can be stitched together. Maximum geometric magnification 2000X (2D)/200X (3D). Maximum sample weight 20kg. Detail detectability 200 nm.,46,1457710016,GE V|tome|xm240 CT Scanner,132
+56,0,1458637883,Portable 3D surface scanner,47,1458637883,DAVID SLS-2,1669
+57,0,1459779710,,48,1464901019,Phoenix VTome|x M,1589
+58,0,1459955211,,49,1459955214,Nikon XTH 225 ST,40
+59,0,1462043341,,50,1462043654,General Electric EVS-RS9 micro-CT,2130
+60,0,1462550380,,51,1462550530,Siemens single source medical CT scanner,2130
+61,0,1463166218,1173 with material testing stage. ,52,1463166218,Bruker Skyscan 1173,866
+62,0,1463762663,,53,1463762663,Siemens Somatom 40 slice helical CT scanner,263
+63,0,1463884317,,54,1463884317,VivaCT 40,85
+64,0,1464901019,,48,1464901019,YXLON FF35 CT,2164
+65,0,1465845174,"The GE v|tome|x system is a dual-tube system equipped with a 300kV unipolar microfocus X-ray tube, a 180kV nanofocus X-ray tube with transmission target assembly, and a GE DXR250 high-contrast digital flat panel detector. The high-energy xs|300 d unipolar 300kV, 500W X-ray tube uses a tungsten reflection target system. This Xray tube allows CT imaging of a range of object sizes and densities at high-resolution with a maximum feature detectability of 1 mm. The xs|300 d unipolar allows for the flexibility of conducting both low energy, high-resolution scanning and higher energy scanning for larger, denser objects. The system is also equipped with a second tube, the xs|180nf 180kV, 15W nanofocus X-ray tube. The xs|180nf uses a transmission target system to achieve nanofocus with detail detectabilities in the sub-500 nm range. The xs|180nf also uses a diamond exit window that greatly enhances data quality compared to the more common beryllium windows. The nanofocus tube includes both tungsten and molybdenum target assemblies. Molydenum targets optimize the X-ray spectrum at low acceleration voltages and enhance detectability of low density, soft materials like soft biological tissue. The v|tome|x L 300 uses a high-contrast GE DXR|250|HCD 4 megapixel (2048x2048) digital flat panel detector. This detector is mounted on a track and is automatically translated laterally so that the detector field can be doubled. This so-called “virtual detector” effectively increases the available pixel field to 4096 wide by 2048 high. The increased pixel field allows a much larger projection image to be collected so that maximum resolutions for scanning increase to approximately 1/4000th the diameter of the object being scanned.",55,1465845174,GE v|tome|x L300 multi-scale nano/microCT sys,132
+66,0,1465845174,"This system has been in operation since 2001 and is designed for both high resolution and flexibility. It includes dual 225 kV and 320 kV X-ray sources and a 1024x1024 pixel analog area detector with image intensifier. The micro-focus source is an X-Tek 225 kV, 225W tube with a nominal focal spot size of about 5 mm at 5W. The higher-power source is a Pantak 1600W sealed x-ray tube capable of 320 kV with the minimum focal spot of >100 mm. The OMNI-X is capable of continuously variable magnification with pixel sizes approximately 1/1000th of the sample diameter. The strength of the HD-600 is the flexibility to image objects ranging in size from 10 mm to 200 mm with a variety of material densities.",55,1465845174,Varian BIR HD-600 OMNI-X multi-scale industri,132
+67,0,1467144945,structured light scanner,56,1501528864,GoMeasure3D: HDI Advance R3X MonoChrome Scann,12
+68,0,1467383958,decommissioned in 2013,39,1474375513,ACTIS scanner with FeinFocus X-ray source,12
+69,0,1469805527,Structured light scanner,58,1469807613,Artec Space Spider,2669
+70,0,1472833481,"The phoenix nanotom® m is a nanoCT® system for scientific and industrial computed tomography (microCT and nanoCT) and 3D metrology. The system realizes a unique spatial and contrast resolution on a wide sample and application range. Fully automated execution of CT scan, reconstruction and analysis process ensures its ease of use and fast, reliable CT results. Precise and reproducible 3D measurements of complex objects and the automatic generation of first article inspection reports within an hour are possible.",59,1472833495,phoenix nanotom m,2164
+71,0,1472833481,"The v|tome|x s is a versatile high-resolution system for 2D X-ray inspection and 3D computed tomography (micro ct and nano ct) and 3D metrology. To allow high flexibility, the v|tome|x s may be equipped with a 180 kV/15 W high-power nanofocus X-ray tube and a 240 kV/320 W microfocus tube. Due to this unique combination, the CT system is a very effective and reliable tool for a wide range of applications from extreme high-resolution scans of low absorbing materials as well as for 3D analysis of high absorbing objects.",59,1472833495,phoenix v|tome|x s ,2164
+72,0,1476121317,,61,1529160264,Nikon Metrology XT H 225 ST,77
+73,0,1476121318,,61,1529160264,GE Nanotom Phoenix M,77
+74,0,1476121318,,61,1529160264,SCANCO uCT 50,77
+75,0,1479520763,,62,1479521548,Phoenix v|tome|x S,2164
+78,0,1483713146,,64,1483713151,GE Discovery PET/CT,906
+79,0,1484885385,,65,1484885397,Inveon PET-CT (Siemens),3284
+80,0,1485632152,non-contact digitizer / scans at between 0.1-0.5mm resolution depending on object actual size,66,1485978740,Konica-Minolta Vivid 9i,12
+81,0,1485977826,,66,1485978740,Faro Focus,12
+82,0,1485977853,,66,1485978740,Faro Edge Arm,12
+83,0,1486129631,,67,1486129631,Nikon XTH225 ST,12
+84,0,1487009285,,68,1487009285,Xradia MicroXCT-400,2773
+85,0,1487009285,,68,1487009285,Xradia MicroXCT-200,2773
+86,0,1487009285,,68,1487009285,Xradia nanoXCT-100,2773
+87,0,1487009285,,68,1487009285,SkyScan 1172,2773
+88,0,1489694526,,69,1489694526,Artec Spider,422
+89,0,1489694526,,69,1489694526,HDI 120,422
+90,0,1491828277,,70,1491832885,2016 Siemens Somatom Perspective 64  Computed,12
+91,0,1492126872,,71,1492126872,Vtomexs system GE Phoenix scanner,3284
+92,0,1495462474,Mounted FARO ScanArm Platinum V2 with integrated FARO Laser Line Probe capable of scanning to a resolution of 50um,75,1495462684,FARO ScanArm Platinum V2 ,3579
+93,0,1495819350,,76,1495819350,Artec Space Spider,3673
+94,0,1497384410,,77,1497384410,450kv microfocus X-ray CT scanning system,1089
+95,0,1497758453,Micro CT scanner capable of 100 kV and 200 uA. Maximum resolution is about 5 um. Max scan volume is a cylinder 150 mm tall and 90 mm in diameter. Raw data are rendered with Shimadzu's software and output as .cb files which are 16-bit .tiff files.,78,1497759457,Shimadzu SMX-100CT,3889
+96,0,1499265788,"Lens: Tamron AF 18–200 mm f/3.5–6.3 XR Di II LD Aspherical (IF) macro zoom lens (Model A14NII) 
+
+3D software: Agisoft PhotoScan (http://www.agisoft.com/)",79,1499266263,Nikon D5300 DSLR camera,4128
+97,0,1499997714,,80,1499997714,Creaform GO!SCAN 20,4183
+98,0,1499997714,,80,1499997714,Creaform GO!SCAN 50,4183
+99,0,1501349474,http://www.biotech.cornell.edu/sites/default/files/uploads/nano-CT FAQ.pdf,81,1501349474,Xradia Zeiss VersaXRM-520,4216
+100,0,1501349474,http://www.biotech.cornell.edu/sites/default/files/uploads/micro CT FAQ.pdf,81,1501349474,GE eXplore CT-120,4216
+101,0,1501528864,used for flat images (reference photos),56,1501528864,iPhone,22
+102,0,1501689513,,82,1501865543,µCT100 Scanco Medical,4253
+103,0,1503667180,225 kV micro-CT scanner,84,1503667186,Nikon XT H 225 ST,4346
+104,0,1503667292,225 kV micro-CT scanner,85,1503667292,Nikon XT H 225 ST,4346
+105,0,1503814463,"Large volume µCT scanner from RX Solutions (Chavanod France).
+Resolution down to 4µm.
+Maximum sample weight 30kg.
+",86,1503814463,RX Solutions EasyTom,4333
+106,0,1503814463,"Small volume µCT scanner from XRE (Ghent, Belgium).
+Resolution down to 0.4µm.",86,1503814463,XRE UniTom,4333
+107,0,1503966972,,87,1503966972,Siemens Inveon PET-CT scanner,3283
+108,0,1504444812,225 kV micro-CT cabinet scanner,88,1504444815,Nikon XT H 225ST,4346
+109,0,1504802837,nanotom-s nanoCT,89,1504802837,"Phoenix Datos | x2 Acquisition, version 2.3.2",4253
+110,0,1505908661,,91,1505908661,Xradia Versa XRM-520 nano CT,4259
+111,0,1505944994,Camera fitted with f/1.4 24 mm Nikkor lens,92,1505945037,Nikon D810,4522
+112,0,1505944994,Camera fitted with f/1.4 24 mm Nikkor lens,92,1505945037,Nikon D800,4522
+114,0,1509024818,,93,1509024907,FARO ScanArm Platinum V2 / FARO Laser Line Pr,3579
+115,0,1510159476,"High speed acquisition to 0.6 mm resolution; Maximum weight 250 kg, bore diameter 78 cm.",94,1510159476,Siemens 128 slice CT,4764
+116,0,1510159476,"Spatial resolution of 90nm, field of view 70 x 70 mm. Imaging bed dimensions are 20 cm in length with a diameter of 7 cm.",94,1510159476,Albira Si CT by Bruker,4764
+117,0,1511013479,micro-CT scanner,96,1511013479,Nikon XT H 225 ST,4346
+118,0,1511752795,,97,1569170543,Creaform Go!Scan20,986
+119,0,1511752795,,97,1569170543,Creaform Go!Scan 50,986
+120,0,1511996810,,98,1511996810,NSI Scanner,4623
+121,0,1513014180,,99,1519052811,NextEngine Desktop 3D Scanner 2020i,4904
+122,0,1513618476,,100,1513618476,Nikon XT H 225 ST,4931
+123,0,1513843910,,102,1513843910,SOMATOM Definition AS+,4816
+124,0,1515539580,,104,1515539580,TOSHIBA Activion16,4816
+125,0,1518103865,,106,1518103865,SkyScan 1174,4189
+126,0,1519052811,,99,1519052811,Artec Space Spider,4904
+127,0,1519240229,,107,1523561035,Faro Design ScanArm,2862
+128,0,1519275313,microCT scanner,108,1519275313,Siemens Inveon PET/CT scanner,5484
+129,0,1519275483,Blue light surface scanner,109,1547183920,3D LMI HD109,5484
+130,0,1519423175,,110,1519423175,X-tek HMXST 225,4842
+131,0,1519423176,"The SkyScan 1173 is a high energy micro-CT scanner for large and dense objects with spiral scan possibility. It includes a newly developed 130kV microfocus X-ray source with improved stability of the focal spot position, a large format (>5Mp) flat panel sensor with special protection by a lead-glass fiber-optic window for achieving a long lifetime under high energy X-rays, and a precision object manipulator for large (up to 140mm in diameter, 200mm in length) and heavy (several kilograms) objects with an integrated micro-positioning stage.",111,1519423176,Bruker Skyscan 1173,2164
+132,0,1519667470,"dual tubes: 240kV and 180kV, 2024x2024 detector",112,1519667470,phoenix v|tome|x s,5389
+133,0,1519872643,,113,1519872643,Vtomex s,3817
+134,0,1519872643,,113,1519872643,Nanotom s,3817
+135,0,1519872643,,113,1519872643,Nanotom m,3817
+136,0,1520090810,,114,1520090839,Siemens Somatom Emotion multislice scanner,300
+137,0,1520940731,"The CT imaging capability of the Biograph 40 consists of a 40-slice CT featuring a full range of SPIRAL CT clinical applications with highest performance. Features include:
+
+    Aperture: 70 cm; power supplied via low-voltage slipring.
+    Rotational speed of the gantry: 162 rpm with a rotation time of 370 ms.
+    Adaptive Array Detector (AAD) system based on UFCTM (Ultrafast Ceramics) with 26880 elements in 40 rows, 1344 channels per slice and up to 4640 projections per 360° rotation.
+    Up to 40 images per rotation of below 0.6 mm isotropic resolution.
+    STRATON tube high-performance X-ray system provide direct cooling of the anode with the ball bearings located outside the vacuum.  The direct anode cooling and the small and compact design of the anode plate (120 mm diameter) eliminates the need for heat storage capacity (0 MHU) and enables an unprecedented cooling rate of 5.0 MHU/min.  Therefore, cooling delays between multiple long range scans are eliminated, even for large patients.
+    The STRATON X-ray tube utilizes an electron beam that is accurately and rapidly deflected, creating two precise focal spots alternating 4640 times per second.  This doubles the X-ray projections reaching each detector element.  The two overlapping projections result in an oversampling in z-direction, known as Double z-Sampling.  The resulting measurements interleave half a detector slice width, doubling the scan information without a corresponding increase in dose.  Siemens’ high-speed UFCTM detector enables a virtually simultaneous readout of two projections for each detector element – 2 x 20 slices for every viewing angle – resulting in a full 40-slice acquisition.
+",115,1520940731,Siemens Biograph 40 TruePoint Tomograph,5213
+138,0,1520967886,,116,1520967886,Nikon XT H 225 ST,5116
+139,0,1522125655,DSLR camera with Nikon AF-S Nikkor 18-55 mm lens or Nikon AF-S Micro Nikkor 105mm macro lens,117,1522125688,Nikon D3300 ,309
+140,0,1522280360,,119,1522280360,SIEMENS/SOMATOM Definition AS+,5274
+141,0,1522291856,,120,1522291856,Beastcam mount,12
+142,0,1522840721,"A compact desktop system for x-ray microscopy and microtomography designed by (Bruker (Billerica, Massachusetts, USA).
+https://uahost.uantwerpen.be/mct/SKYSCAN/SKYSCAN_manuals/1072_manual.pdf",121,1529582795, Skyscan 1072 ,187
+143,0,1522842713,"
+http://www.ansto.gov.au/ResearchHub/OurInfrastructure/ACNS/Facilities/Instruments/Dingo/index.htm",122,1522842713,DINGO,187
+144,0,1523477925,Dual tube system 180kV and 225kV. 2000 x 2000 detector,123,1523479907,Nikon XT H225ST,2164
+145,0,1523903966,,124,1523903966,Skyscan 1172 microCT scanner,4902
+146,0,1524481914,,125,1524481914,X-Tek HMX 160,5557
+147,0,1527376937,,129,1527376937, Philips Brilliance 64,5648
+148,0,1528813729,This surface scanner allows the acquisition of the 3D surface of the bone at high resolution using white light fringes (StereoSCAN3D model with a camera resolution of five megapixels).,132,1528814690,Breuckmann/EOTECH,348
+149,0,1528863447,,133,1528863617,TOSHIBA/Activion16,5274
+150,0,1528863447,,133,1528863617,TOSHIBA/Activion17,5274
+151,0,1529581890,"An in vivo system for x-ray microscopy and microtomography designed by Bruker (Billerica, Massachusetts, USA) and souced from Belgium.
+http://uahost.uantwerpen.be/mct/SKYSCAN/SKYSCAN_manuals/1076_manual.pdf",121,1529582795, Skyscan 1076 with modified camera,187
+152,0,1529581974,"The SkyScan 1276 is a high performance, stand-alone, fast, desk-top in vivo micro-CT with continuously variable magnification for scanning small laboratory animals (e.g. mice, rats) and biological samples.
+https://www.bruker.com/products/microtomography/in-vivo-micro/skyscan-1276/overview.html?gclid=CjwKCAjwma3ZBRBwEiwA-CsblJchGEPyu72tuNyaH4LJ0DRvcJlaQxtfnqw3OXDiAa5ny7iU8rvGbBoCUZYQAvD_BwE",121,1529582795,Skyscan 1276,187
+153,0,1531248015,,135,1531248018,Nikon Metrology MCT 225 industrial µCT,77
+154,0,1531851204,,136,1531851204,CT: GE Discover NM/CT 570c,12
+155,0,1531851204,,136,1531851204,"Fluoroscope: Phillips, Allura Xper FD20",12
+156,0,1532026919,"28 inch diameter, table max 550 pounds",137,1532026919,Siemens Definition AS 40Slice,4764
+157,0,1532357452,Nikolai Tatarnic,138,1532357452, Zeiss XRadia Versa 520,2164
+158,0,1532465492,,139,1532465492,Carl Zeiss MicroXCT-200,6234
+159,0,1532703103,,140,1533917403,Geomagic 3D Capture,2287
+160,0,1532703125,,140,1533917403,Next Engine 3D Scanner,2287
+161,0,1533203066,,141,1533203066,"phoenix
+v|tome|x s 240 (Research Edition)",5937
+162,0,1533310517,,142,1533310517,GE Lightspeed Pro 16 CT scanner,6418
+163,0,1533317643,,143,1533317643,SkyScan1173,6067
+164,0,1533554616,,144,1533554616,Phoenix v|tome|x s 180/240,4346
+165,0,1533754173,,145,1533754173,NIKON X TH 225 ST,3307
+166,0,1534414054,,146,1534414054,Bruker Skyscan 2211,6474
+167,0,1535254665,,148,1535254684,Next Engine 3D Laser Scanner,77
+168,0,1535254775,,149,1535254775,Next Engine 3D Laser Scanner,77
+169,0,1535919246,,150,1535919282,Nikon XT H225ST,4746
+170,0,1535925066,,151,1535925066,Scanco Medical microCT,6234
+171,0,1536177745,Portable intraoral scanner.,152,1536177745,Planmeca PlanScan,2250
+172,0,1536242961,,153,1536242981,microCT scan Bruker Skyscan 1174,247
+173,0,1536242961,,153,1536242981,Structured light surface scan Flexscan 3D,247
+174,0,1536242961,,153,1536242981,Structured light surface Einscan-Pro,247
+175,0,1536253579,Portable intraoral scanner,154,1536253579,Planmeca PlanScan,2250
+176,0,1536449591,,155,1536449591,Artec Spider,3768
+177,0,1537208278,,156,1537208286,Siemens Somatom Emotion 6-slice medical scann,5213
+178,0,1539139357,https://xre.be/product/unitom/,157,1539139371,XRE / UniTOM,12
+179,0,1540231072,,158,1540231122,North Star Imaging X5000,5041
+180,0,1540379223,,159,1540379223,GE LightSpeed VCT 64-slice CT,147
+181,0,1542039117,,160,1542039128,Bruker SkyScan 1173 micro-CT ,6525
+182,0,1542230877,,163,1542230877,GE phoenix v|tome|x 240 L,1589
+183,0,1542788510,https://www.wits.ac.za/microct/,164,1542788548,Nikon Metrology XTH 225/320 LC dual source ,168
+184,0,1544468522,,166,1544468522,Toshiba Aquilion Prime,7292
+185,0,1544469175,,167,1544469175,Siemens Somatom Definition,7292
+186,0,1544582618,,168,1544582618,digital camera,12
+187,0,1544646922,In-vivo micro-CT ,169,1544646922,Bruker Skyscan 1176,5213
+188,0,1545207972,,170,1545209115,X-ray Micro-CT Scanner,7325
+189,0,1546531407,Laser Scanner,171,1546531419,NextEngine 2020,960
+190,0,1546531407,Structured light scanner,171,1546531419,Go!Scan 50,960
+191,0,1547004413,Serial Number  018,172,1559005458,Skyscan1174,3283
+192,0,1547183894,Skyscan micro-CT scanner that used to be available to the lab; the machine is now defunct,109,1547183920,Skyscan 1174,5484
+193,0,1547979941,Synchrotron beamline,173,1547979941,Beamline ID19,4346
+194,0,1547981799,,174,1547981799,ZEISS Xradia 520 Versa 3D X-Ray microscope,4346
+195,0,1548365332,Diagnostic (hospital) CT scanner,175,1559566720,Toshiba Aquilion 64 CT Scanner ,2511
+196,0,1550860449,,179,1550860449,NSI X5000,6117
+197,0,1551224311,Portable 3D laser scanner,180,1551224316,Konika Minolta Vivid 9i ,5213
+198,0,1551795503,,181,1551795503,Nano-CT GE v/tome/x m240,2419
+199,0,1552664943,,183,1552665209,Phoenix v|tome|x s (GE Measurement & Control),12
+200,0,1552916741,,184,1552916741,medical Philips Brilliance 64 CT,2753
+201,0,1552918384,,185,1552918384,Y.TU450-D11 x-ray tube ,2753
+202,0,1553179459,Diagnostic (hospital) CT scanner,175,1559566720,GE HiSpeed Fx-i Helical CT Scanner,7527
+203,0,1555391131,high-resolution μCT-scanner,186,1555391131,Skyscan 1076,8086
+204,0,1555391132,high-resolution μCT-scanner,186,1555391132,Skyscan 1276,8086
+205,0,1555542018,"PicoScan white light scanner from 4D Dynamics, Antwerp, Belgium",187,1555542018,PicoScan,52
+206,0,1556803624,,188,1556803631,EasyTom HR-microtomograph,176
+207,0,1557140944,,189,1557141660,"GE, phoenix x-ray nanotom m",8291
+208,0,1557438812,,190,1557438812,Zeiss Xradia XRM520,1861
+209,0,1557502792,3D Surface Scanner,191,1569511370,EinScan Pro+,6807
+210,0,1557502792,3D Surface Scanner,191,1569511370,EinScan Pro 2X,6807
+211,0,1557502792,3D Surface Scanner,191,1569511370,Next Engine,6807
+212,0,1557775891,GW VTOMEX CT Scanner,193,1557775943,240 CT Scanner,6807
+213,0,1558132026,,195,1558132026,Nikon XT H 225 ST,8324
+214,0,1558356282,,196,1558356282,Philips iCT256,2164
+215,0,1558712172,"Resolution up to 5 µm/voxel, or matrix sizes of up to 5700 px, max. acceleration voltage of 225 kV, max. object size: 500mm in diameter, 800mm in height ",197,1558712172,Diondo d3 high-resolution micro-CT system,5213
+216,0,1559004682,"(NextEngine Inc., California, United States)",172,1559005458,NextEngine Desktop 3D Laser Scanner,3283
+217,0,1559005435,"(LMI Technology, Inc., Vancouver, Canada)",172,1559005458,HDI109 Blue Light Surface 3D Scanner,3283
+218,0,1559182952,Diagnostic (hospital) CT scanner,175,1559566720,GE LightSpeed Ultra 64 Multislice CT scanner,2511
+219,0,1559183095,,23,1559183095,GE eXplore CT 120 in vivo,2511
+220,0,1562937359,,200,1562937359,Artec Spider,8510
+221,0,1562937359,,200,1562937359,Artec Eva,8510
+223,0,1563366114,"The Xradia versa XRM500 is a CT tomography machine. Its mecanism consists of Xrays that generates voltage from 30 to 160kv, used to image samples and create reference images and includes an X ray source filter holder. Detector assembly that picks up Xray images of the samples.
+
+Key Features:
+
+Sample Stage: Platform upon which sample mounted on a sample holder, is secured and positioned for microscopy.
+
+Detector Assembly: It has one macro lens and a turret
+
+• Macro lens(i.e.0.39X)is a lower magnification lens used for FOV 
+• Turret consits of : 1x,4x,20x and 40x
+
+Scount and control System: Software used for mounting and scanning the images
+
+Reconstruction Software: It consits of XRM3Dviewer, XM reconstructor, XM controller
+
+Avizo: It is a 3D data visualization, analysis and modelling system. It allows you to explore and analyze data sets from various area:
+
+• Scientific Visualization 
+• Material Sciences 
+• Computer Aided Engineering, Computational Filed Dynamics, Numerical Solution 
+• Climate, Oceanography, Environment Etc.., ",202,1563366138,Xradia versa XRM500,2164
+224,0,1564215338,,203,1564215338,Synchrotron X-ray microtomography,6327
+225,0,1565673930,blue light surface scanner,204,1565673930,"GoMeasure 3D’s HDI109 (LMI Technologies Inc.,",8582
+226,0,1567632144,"Maximum tube voltage (kV) 160
+X-ray tube setting range (kV) 20-160
+Minimum resolution (micron) 0.8
+X-ray output window material Diamond
+Maximum target current (mA) 100",205,1567632149,Custom system with Hamamatsu L10711-19 source,8957
+227,0,1567768927,,206,1567768954,microCT station Scanco mCT 40 (Scanco Medical,187
+228,0,1568125828,Artec Spider structured light scanner,207,1568125828,Artec Spider,4346
+229,0,1568202794,,208,1568202794,hutch 3B,187
+230,0,1568291398,operated using xs control and Phoenix datos|x acquisition software (both GE Sensing & Inspection Technologies),209,1568291401,Phoenix Nanotom m (GE Sensing & Inspection Te,187
+231,0,1568311446,Hand-held 3D scanner; connects to Windows computer loaded with VXElements for rendering scans,210,1568311516,Creaform GoScan 50,342
+232,0,1568311516,DSLR camera used to take photographs for photogrammetry,210,1568311516,Canon T6s,342
+233,0,1569170483,,97,1569170543,NextEngine with ScanStudio PRO,986
+234,0,1569170483,,97,1569170543,"FARO Laser Line Probe with FARO® Edge, 6 ft (",986
+235,0,1569511370,3D Structured Light Scanner,191,1569511370,GeoMagic Capture,6807
+236,0,1571939472,,212,1571939472,Skyscan 1172,8982
+237,0,1573089910,,213,1573089910,Artec Space Spider,103
+238,0,1573089910,,213,1573089910,NextEngine 3D Laser Scanner,103

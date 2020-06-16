@@ -1,0 +1,116 @@
+﻿facility_id,facility_name,scanner_id,scanner_name,pre_norm_modality,modality
+11,SMiF,10,Nikon XTH 225 ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+11,SMiF,38,FEI XL30 SEM-FEG,Scanning Electron Microscopy,ScanningElectronMicroscopy
+11,SMiF,39,FEI XL30 ESEM with Bruker XFlash 4010 EDS Det,Scanning Electron Microscopy,ScanningElectronMicroscopy
+12,Microscopy and Imaging Facility (MIF),12,GE Phoenix v / tome / x,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+12,Microscopy and Imaging Facility (MIF),36,Hitachi S-4700 ,Scanning Electron Microscopy,ScanningElectronMicroscopy
+12,Microscopy and Imaging Facility (MIF),37,Zeiss EVO 60 VPSEM,Scanning Electron Microscopy,ScanningElectronMicroscopy
+14,Stony Brook Univ. Center for Biotechnology,13,Scanco Medical uCT 40,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+14,Stony Brook Univ. Center for Biotechnology,14,Scanco Medical vivaCT 75,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+15,Avonix Imaging,11,Nikon XTH 225 ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+17,ISE-M / MRI imaging platform,17,SkyScan in-vivo 1076,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+18,Bruker microCT,18,SkyScan 1172,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+19,Boyer lab,19,DVM5000 Leice digital microscope,Photography,Photography
+20,Stony Brook University Medical Center,20,64-source medical CT scanner,Medical x ray Computed Tomography,MedicalXRayComputedTomography
+21,"University of Vienna, Dept. of Theoretical Bi",21,Xradia MicroXCT,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+22, Center for Quantitative Imaging,22,Varian OMNI-X HD-600 HRxCT,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+23,Ohio University MicroCT Facility,23,GE eXplore Locus in vivo,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+24,NYCEP,24,Breuckmann Structured Light Scanner,Structured light,StructuredLight
+24,NYCEP,25,NextEngine laser scanner,Laser,LaserScan
+24,NYCEP,27,Cyberware laser scanner,Laser,LaserScan
+24,NYCEP,46,Minolta Vivid 910 laser surface scanner,Laser,LaserScan
+25,Center for Nanoscale Systems,26,X-Tek HMXST225,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+26,Yale Core Center for Musculoskeletal Disorder,28,Scanco Medical uCT 35,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+27,Plio-Pleistocene Section,29,Artec Spider,Structured light,StructuredLight
+28,Necsa,30,Nikon XTH 225 ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+29,Donald Gordon Medical Centre,31,Phillips Brilliance 180Pz,Medical x ray Computed Tomography,MedicalXRayComputedTomography
+30,FLMNH Vert Paleo Specimen Imaging Facility,32,"Nikon D5100, 60mm/105mm Macro Lens Camera",Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+31,Illinois State Museum Imaging Lab,33,Next Engine ,Laser,LaserScan
+32,Klinikum rechts der Isar,34,Siemens SOMATOM Defintion AS,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+33,Raymond M. Alf Museum of Paleontology,35,NextEngine 3D Laser Scanner,Laser,LaserScan
+34,SNSB X-ray facility,40,Nanotom m,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+35,"Evolutionary Studies Institute, University of",41,NextEngine,Laser,LaserScan
+35,"Evolutionary Studies Institute, University of",42,Canon 6D,Photography,Photography
+35,"Evolutionary Studies Institute, University of",43,Nikon ,Photography,Photography
+36,"Illinois State Museum, Research and Collectio",44,Next Engine,Laser,LaserScan
+37,Imaging and Analysis Centre,45,Nikon Metrology HMX ST 225,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+39,The University of Texas High-Resolution X-ray Computed Tomography Facility,47,Zeiss (Xradia) microXCT 400,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+39,The University of Texas High-Resolution X-ray Computed Tomography Facility,68,ACTIS scanner with FeinFocus X-ray source,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+40,Henry Moseley X-ray Imaging Facility,48,The Rapiscan RTT110 CT ,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+40,Henry Moseley X-ray Imaging Facility,49,Nikon 225/320 kV  Custom Bay,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+40,Henry Moseley X-ray Imaging Facility,50,Nikon XTH 225,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+41,Chamberlain Lab,51,LMI HDi R3 advance,Structured light,StructuredLight
+42,Platform Montpellier RIO Imaging,52,RX in-vivo Skyscan 1076 microtomograph,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+43,Institute for Genetic Medicine,53,SCANCO microCT 50 ,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+44,UCLA Medical Center,54,Siemens Somatom,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+46,UF Nanoscale Research Facility,55,GE V|tome|xm240 CT Scanner,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+47,Portable 3D surface scanner,56,DAVID SLS-2,Structured light,StructuredLight
+48,Florida Museum of Natural History Herpetology,57,Phoenix VTome|x M,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+48,Florida Museum of Natural History Herpetology,64,YXLON FF35 CT,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+49,"Nikon Metris X-Tek Metrology Systems, Ltd. He",58,Nikon XTH 225 ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+50,University of Utah Small Animal Imaging Facil,59,General Electric EVS-RS9 micro-CT,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+51,University of Utah Hospital,60,Siemens single source medical CT scanner,Medical x ray Computed Tomography,MedicalXRayComputedTomography
+52,Karel F. Liem Bioimaging facility,61,Bruker Skyscan 1173,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+53,Diagnostic Imaging & Cancer Treatment Center,62,Siemens Somatom 40 slice helical CT scanner,Medical x ray Computed Tomography,MedicalXRayComputedTomography
+54,University of Calgary micro-CT Laboratory,63,VivaCT 40,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+55,Penn State Center for Quantitative Imaging (C,65,GE v|tome|x L300 multi-scale nano/microCT sys,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+55,Penn State Center for Quantitative Imaging (C,66,Varian BIR HD-600 OMNI-X multi-scale industri,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+56,Duke Division of Fossil Primates,67,GoMeasure3D: HDI Advance R3X MonoChrome Scann,Structured light,StructuredLight
+56,Duke Division of Fossil Primates,101,iPhone,Photography,Photography
+58,Artec 3D Scanner (JURASSICA),69,Artec Space Spider,Structured light,StructuredLight
+59,GE Sensing & Inspection Technologies / phoenix|x-ray,70,phoenix nanotom m,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+59,GE Sensing & Inspection Technologies / phoenix|x-ray,71,phoenix v|tome|x s ,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+61,Molecular Imaging Center,72,Nikon Metrology XT H 225 ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+61,Molecular Imaging Center,73,GE Nanotom Phoenix M,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+61,Molecular Imaging Center,74,SCANCO uCT 50,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+62,"GE India Industrial Pvt Ltd, Pune",75,Phoenix v|tome|x S,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+64,California National Primate Research Center,78,GE Discovery PET/CT,Medical x ray Computed Tomography,MedicalXRayComputedTomography
+65,The Centre for Advanced Imaging ,79,Inveon PET-CT (Siemens),Medical x ray Computed Tomography,MedicalXRayComputedTomography
+66,Idaho Virtualization Lab,80,Konica-Minolta Vivid 9i,Laser,LaserScan
+66,Idaho Virtualization Lab,81,Faro Focus,Laser,LaserScan
+66,Idaho Virtualization Lab,82,Faro Edge Arm,Laser,LaserScan
+67,Cambridge Biotomography Centre,83,Nikon XTH225 ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+68,"Beckman Institute, Imaging Technology Group",84,Xradia MicroXCT-400,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+68,"Beckman Institute, Imaging Technology Group",85,Xradia MicroXCT-200,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+68,"Beckman Institute, Imaging Technology Group",86,Xradia nanoXCT-100,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+68,"Beckman Institute, Imaging Technology Group",87,SkyScan 1172,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+69,Walker Evolutionary Anatomy Lab,88,Artec Spider,Structured light,StructuredLight
+69,Walker Evolutionary Anatomy Lab,89,HDI 120,Laser,LaserScan
+70,"NC State Veterinary Hospital, Diagnostic Imaging Department",90,2016 Siemens Somatom Perspective 64  Computed,Medical x ray Computed Tomography,MedicalXRayComputedTomography
+71,University of New England ,91,Vtomexs system GE Phoenix scanner,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+75,"Laser Surface Scanning Facility of Labo Functionele Morphologie, UAntwerpen",92,FARO ScanArm Platinum V2 ,Laser,LaserScan
+76,PSU Anthropology Department Artec Space Spider,93,Artec Space Spider,Structured light,StructuredLight
+77,NTS Chesapeake Testing,94,450kv microfocus X-ray CT scanning system,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+78,Shimadzu Center for Environmental Forensics and Material Science,95,Shimadzu SMX-100CT,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+79,Royal Ontario Museum,96,Nikon D5300 DSLR camera,Photogrammetry,Photogrammetry
+80,Canadian Museum of Nature,97,Creaform GO!SCAN 20,Structured light,StructuredLight
+80,Canadian Museum of Nature,98,Creaform GO!SCAN 50,Structured light,StructuredLight
+81,Cornell University Biotechnology Resource Center,99,Xradia Zeiss VersaXRM-520,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+81,Cornell University Biotechnology Resource Center,100,GE eXplore CT-120,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+82,"University of Michigan Museum of Zoology, Herpetology Division",102,ÂµCT100 Scanco Medical,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+84,"Nikon Metrology, Tring",103,Nikon XT H 225 ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+85,"Natural History Museum, London: Imaging and Analysis Centre",104,Nikon XT H 225 ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+86,"Royal Belgian Institute for Natural Sciences, Scientific Heritage Service",105,RX Solutions EasyTom,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+86,"Royal Belgian Institute for Natural Sciences, Scientific Heritage Service",106,XRE UniTom,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+87,Center of Advanced Imaging (National Imaging Facility),107,Siemens Inveon PET-CT scanner,Medical x ray Computed Tomography,MedicalXRayComputedTomography
+88,"Abertay University, School of Science, Engineering and Technology",108,Nikon XT H 225ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+89,University of Michigan Biological Sciences Research Building,109,"Phoenix Datos | x2 Acquisition, version 2.3.2",Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+91,Institute of Biotechnology,110,Xradia Versa XRM-520 nano CT,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+92,National Park Service - Geologic Resources Division,111,Nikon D810,Photogrammetry,Photogrammetry;Photography
+92,National Park Service - Geologic Resources Division,112,Nikon D800,Photogrammetry,Photogrammetry;Photography
+93,UAntwerpen FunMorph Lab,114,FARO ScanArm Platinum V2 / FARO Laser Line Pr,Laser,LaserScan
+94,Texas Institute for Preclinical Studies,115,Siemens 128 slice CT,Medical x ray Computed Tomography,MedicalXRayComputedTomography
+94,Texas Institute for Preclinical Studies,116,Albira Si CT by Bruker,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+96,"School of Earth Sciences, University of Bristol",117,Nikon XT H 225 ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+97,Indiana University Paleontology Collection,118,Creaform Go!Scan20,Structured light,StructuredLight
+97,Indiana University Paleontology Collection,119,Creaform Go!Scan 50,Structured light,StructuredLight
+98,The University of Texas High-Resolution X-ray Computed Tomography Facility,120,NSI Scanner,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+99,Yale Institute for the Preservation of Cultural Heritage Digitization Lab,121,NextEngine Desktop 3D Scanner 2020i,Laser,LaserScan
+100,CT in Earth & Environmental Sciences (CTEES),122,Nikon XT H 225 ST,Micro/Nano x ray Computed Tomography,MicroNanoXRayComputedTomography
+102,I-MED Radiology Armidale,123,SOMATOM Definition AS+,Medical x ray Computed Tomography,MedicalXRayComputedTomography
+64,California National Primate Research Center,78,GE Discovery PET/CT,Positron Emission Tomography,PositronEmissionTomography
+65,The Centre for Advanced Imaging ,79,Inveon PET-CT (Siemens),Positron Emission Tomography,PositronEmissionTomography
+79,Royal Ontario Museum,96,Nikon D5300 DSLR camera,Photography,Photography
+87,Center of Advanced Imaging (National Imaging Facility),107,Siemens Inveon PET-CT scanner,Positron Emission Tomography,PositronEmissionTomography
+92,National Park Service - Geologic Resources Division,111,Nikon D810,Photography,Photography
+92,National Park Service - Geologic Resources Division,112,Nikon D800,Photography,Photography
