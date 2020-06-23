@@ -84,7 +84,7 @@ def fill_profile_fields(df, index, vars_dict):
 			if field_name in pref:
 				if field in list_fields:
 					# handle list
-					df.at[index, field] = ','.join(pref[field_name].values())
+					df.at[index, field] = ';'.join(pref[field_name].values())
 				else:
 					df.at[index, field] = pref[field_name]
 
@@ -120,6 +120,7 @@ base_path = 'user_export'
 sql = """
 	SELECT *
 	FROM ca_users
+	WHERE userclass != 255
 """
 
 r = db_query(c, sql)
@@ -132,10 +133,27 @@ for field in user_profile_fields:
 
 # Expand encoded dicts
 for index, row in df.iterrows():
+	# Check for mismatched user name and email!
+	if row.user_name.lower() != row.email.lower():
+		raise ValueError('Mismatch user name ({}) and email ({})!'.format(row.user_name, row.email))
+
 	if row.vars:
 		vars_dict = blob_to_array(row.vars)
 		if type(vars_dict) is dict and vars_dict != {}:
 			df = fill_profile_fields(df, index, vars_dict)
-	
+
+# Check for duplicate emails (must be normalized before import!)
+df['email'] = df['email'].str.lower()
+counts = df['email'].value_counts()
+bad_counts = counts[counts > 1]
+for email, count in bad_counts.items():
+	bad_rows = df.loc[df['email'] == email]
+	print('Duplicate user {} with {} accounts. User IDs: {}'.format(email, count, ', '.join(list(bad_rows['user_id'].astype(str).values))))
+
+# Check for mismatched user names and emails
+
+
+if len(bad_counts):
+	raise ValueError('{} duplicate user emails detected! Must merge before export!'.format(len(bad_counts)))
 
 df.to_csv(os.path.join(base_path, 'ca_users.csv'), index=False, encoding='utf-8')

@@ -1,2 +1,6 @@
 *.json
 *.pyc
+data_export/*.csv
+user_export/*.csv
+.DS_Store
+._.DS_Store

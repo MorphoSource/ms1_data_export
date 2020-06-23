@@ -64,7 +64,8 @@ c = conn.cursor()
 ### Get list of media file ids ###
 project_dfs = {}
 #project_ids = [119, 125, 158, 170, 211, 227, 245, 369, 544]
-project_ids = [348] 
+project_ids = [348]
+# media_file_ids = [26700, 26701, 26702, 26727, 26728, 26729]
 media_file_ids = []
 mf_id_project_id = {}
 
@@ -109,7 +110,7 @@ for mf_id, mf_row in mf_df.iterrows():
 		mf_df.at[mf_id, 'derived_from_media_id'] = d_m_id
 
 mf_df.drop(['media', 'media_metadata'], axis=1, inplace=True)
-mf_df.to_csv('export/ms_media_files.csv', index=False, encoding='utf-8')
+mf_df.to_csv('data_export/ms_media_files.csv', index=False, encoding='utf-8')
 
 ### Grab Media Records Mentioned In Media Files ###
 
@@ -127,7 +128,7 @@ r = db_query(c, sql)
 m_df = get_record_df(index_field='media_id', query_result=r)
 m_df.drop(['media', 'media_metadata'], axis=1, inplace=True)
 intify_cols(m_df, ['media_id', 'derived_from_media_id', 'facility_id', 'project_id', 'published', 'reviewer_id', 'scanner_id', 'specimen_id', 'user_id'])
-m_df.to_csv('export/ms_media.csv', index=False, encoding='utf-8')
+m_df.to_csv('data_export/ms_media.csv', index=False, encoding='utf-8')
 
 ### Grab Specimen Records Mentioned In Media ###
 
@@ -173,7 +174,7 @@ for s_id, s_row in s_df.iterrows():
 
 intify_cols(s_df, ['specimen_id', 'alt_id', 'body_mass_bibref_id', 'institution_id', 'link_id', 'locality_absolute_age_bibref_id', 'locality_relative_age_bibref_id', 'project_id', 'user_id'])
 
-s_df.to_csv('export/ms_specimens.csv', index=False, encoding='utf-8')
+s_df.to_csv('data_export/ms_specimens.csv', index=False, encoding='utf-8')
 
 ### Grab Taxonomy Records Linked To Specimens ###
 
@@ -198,7 +199,7 @@ r = db_query(c, sql)
 
 t_df = get_record_df(index_field='alt_id', query_result=r)
 intify_cols(t_df, ['taxon_id', 'specimen_id', 'alt_id'])
-t_df.to_csv('export/ms_taxonomies.csv', index=False, encoding='utf-8')
+t_df.to_csv('data_export/ms_taxonomies.csv', index=False, encoding='utf-8')
 
 ### Grab Institutions Mentioned In Specimens ###
 
@@ -216,7 +217,7 @@ r = db_query(c, sql)
 
 i_df = get_record_df(index_field='institution_id', query_result=r)
 intify_cols(i_df, ['institution_id', 'user_id'])
-i_df.to_csv('export/ms_institutions.csv', index=False, encoding='utf-8')
+i_df.to_csv('data_export/ms_institutions.csv', index=False, encoding='utf-8')
 
 ### Grab Project Records Mentioned In Media And Specimens ###
 
@@ -232,10 +233,34 @@ sql = """
 
 r = db_query(c, sql)
 
-
 p_df = get_record_df(index_field='project_id', query_result=r)
 intify_cols(p_df, ['project_id', 'user_id'])
-p_df.to_csv('export/ms_projects.csv', index=False, encoding='utf-8')
+p_df['full_access_users'] = ''
+p_df['read_access_users'] = ''
+
+# Grab users for projects
+for p_id, p_row in p_df.iterrows():
+	full_access_users = []
+	read_access_users = []
+
+	project_user_sql = """
+		SELECT * 
+		FROM ms_project_users
+		WHERE project_id = {} AND active = 1
+	""".format(p_row['project_id'])
+
+	project_user_query = db_query(c, project_user_sql)
+
+	for user_row in project_user_query:
+		if user_row['membership_type'] == 1:
+			full_access_users.append(user_row['user_id'])
+		elif user_row['membership_type'] == 2:
+			read_access_users.append(user_row['user_id'])
+
+	p_df.at[p_id, 'full_access_users'] = ';'.join([str(x) for x in full_access_users])
+	p_df.at[p_id, 'read_access_users'] = ';'.join([str(x) for x in read_access_users])
+
+p_df.to_csv('data_export/ms_projects.csv', index=False, encoding='utf-8')
 
 ### Temp: Grab All Scanners
 
@@ -274,7 +299,7 @@ for i, row in sc_df.iterrows():
 		sc_df.at[i, 'modality'] = modality
 
 intify_cols(sc_df, ['scanner_id', 'facility_id', 'user_id'])
-sc_df.to_csv('export/ms_scanners.csv', index=False, encoding='utf-8')
+sc_df.to_csv('data_export/ms_scanners.csv', index=False, encoding='utf-8')
 
 ### Grab Facilities Mentioned In Scanners ###
 
@@ -293,31 +318,7 @@ r = db_query(c, sql)
 
 f_df = get_record_df(index_field='facility_id', query_result=r)
 intify_cols(f_df, ['facility_id', 'project_id', 'user_id'])
-f_df.to_csv('export/ms_facilities.csv', index=False, encoding='utf-8')
-
-### Grab Users Mentioned In All Records
-
-print('User records')
-
-user_ids = list(set(list(mf_df['user_id'].values) + 
-	list(m_df['user_id'].values) +
-	list(s_df['user_id'].values) +
-	list(p_df['user_id'].values) +
-	list(sc_df['user_id'].values) +
-	list(f_df['user_id'].values) +
-	list(i_df['user_id'].values)))
-
-sql = """
-	SELECT *
-	FROM ca_users
-	WHERE user_id IN ({})
-""".format(','.join(str(x) for x in user_ids))
-
-r = db_query(c, sql)
-
-u_df = get_record_df(index_field='user_id', query_result=r)
-intify_cols(u_df, ['user_id'])
-u_df.to_csv('export/ca_users.csv', index=False, encoding='utf-8')
+f_df.to_csv('data_export/ms_facilities.csv', index=False, encoding='utf-8')
 
 ### Get Media Files ###
 
@@ -381,4 +382,4 @@ for mf_row in mf_r:
 			print('No original or archive found for media file id ' + str(m.db_dict['media_file_id']))
 
 intify_cols(mf_df, ['media_file_id', 'derived_from_media_file_id', 'file_type', 'media_id', 'use_for_preview', 'user_id', 'derived_from_media_id', 'published'])
-mf_df.to_csv('export/ms_media_files.csv', index=False, encoding='utf-8')
+mf_df.to_csv('data_export/ms_media_files.csv', index=False, encoding='utf-8')
